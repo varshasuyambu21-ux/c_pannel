@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Default Web Site Page</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      padding: 2.5rem;
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255, 108, 44, 0.15);
+      color: #ff6c2c;
+      padding: 0.35rem 0.85rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    h1 {
+      font-size: 1.8rem;
+      margin: 0.5rem 0 1rem;
+      color: #ffffff;
+    }
+    p {
+      color: #94a3b8;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .footer-note {
+      font-size: 0.8rem;
+      color: #64748b;
+      border-top: 1px solid #334155;
+      padding-top: 1.25rem;
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">cPanel Server Online</div>
+    <h1>Default Web Site Page</h1>
+    <p>This is the default index page for your web hosting account. Your web server is operational and ready to host your files.</p>
+    <p>To replace this page, upload your website assets into the <code>public_html</code> directory using the <strong>cPanel File Manager</strong>, FTP, or Git Deployment.</p>
+    <div class="footer-note">
+      Managed via cPanel &bull; Apache &bull; Powered by AWS Cloud Infrastructure
+    </div>
+  </div>
+</body>
+</html>

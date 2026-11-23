@@ -1,0 +1,13 @@
+{
+  "settings": {
+    "primaryDomain": "localhost",
+    "sharedIp": "192.168.88.26",
+    "currentUser": "admin"
+  },
+  "databases": [],
+  "dns_records": [],
+  "email_accounts": [],
+  "cron_jobs": [],
+  "installed_apps": [],
+  "deployments": []
+}

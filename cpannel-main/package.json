@@ -1,0 +1,19 @@
+{
+  "name": "cpanel-modern",
+  "version": "1.0.0",
+  "description": "Modern Web Hosting Control Panel (cPanel Clone) with live system metrics, File Manager, MySQL management, DNS Editor, Email Accounts, and Web Terminal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cpanel",
+    "hosting",
+    "control-panel",
+    "file-manager",
+    "web-hosting",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT"
+}
